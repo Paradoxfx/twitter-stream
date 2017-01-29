@@ -20,6 +20,7 @@ class Application extends Controller {
     Ok(views.html.index("Tweets"))
   }
 
+  //TODO fix it
   /*def tweets = WebSocket.acceptWithActor[String, JsValue] {
     request => out => TwitterStreamer.props(out)
   }*/
